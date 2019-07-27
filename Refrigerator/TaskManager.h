@@ -17,6 +17,6 @@ Scheduler ts;
 
 Task rpm_task (1000 * TASK_MILLISECOND, TASK_FOREVER, &readRPM, &ts, true);
 Task ntc_task (500 * TASK_MILLISECOND, TASK_FOREVER, &tempMediaNTC, &ts, true);
-Task pwm_task (100 * TASK_MILLISECOND, TASK_FOREVER, &cycle_hot, &ts, true);
+//Task pwm_task (100 * TASK_MILLISECOND, TASK_FOREVER, &cycle_hot, &ts, true);
 
 #endif

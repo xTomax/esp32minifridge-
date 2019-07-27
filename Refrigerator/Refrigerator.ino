@@ -10,6 +10,8 @@ void setup() {
   Serial.begin(9600);
   setup_tachometer();
   pwm_setup();
+  setHotDuty(255);
+  setColdDuty(255);
 }
 
 void loop() {
